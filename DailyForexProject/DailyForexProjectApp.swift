@@ -11,7 +11,7 @@ import SwiftUI
 struct DailyForexProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ForexList()
         }
     }
 }

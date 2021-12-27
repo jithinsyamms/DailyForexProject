@@ -7,15 +7,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ForexList: View {
+    @StateObject private var forexData = ForexDataModel()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+         forexData.isLoading ? Text("Loading...") : Text("No data")
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ForexList()
     }
 }

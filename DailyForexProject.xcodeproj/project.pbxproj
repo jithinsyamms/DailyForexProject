@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		5D2588DF2779B89200A6B88F /* DailyForexProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2588DE2779B89200A6B88F /* DailyForexProjectApp.swift */; };
-		5D2588E12779B89200A6B88F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2588E02779B89200A6B88F /* ContentView.swift */; };
+		5D2588E12779B89200A6B88F /* ForexList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2588E02779B89200A6B88F /* ForexList.swift */; };
 		5D2588E32779B89500A6B88F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2588E22779B89500A6B88F /* Assets.xcassets */; };
 		5D2588E62779B89500A6B88F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2588E52779B89500A6B88F /* Preview Assets.xcassets */; };
 		5D2588F12779B89500A6B88F /* DailyForexProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2588F02779B89500A6B88F /* DailyForexProjectTests.swift */; };
 		5D2588FC2779B89500A6B88F /* DailyForexProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2588FB2779B89500A6B88F /* DailyForexProjectUITests.swift */; };
+		5D25890E2779BC2900A6B88F /* APIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D25890D2779BC2900A6B88F /* APIResource.swift */; };
+		5D2589102779D03F00A6B88F /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D25890F2779D03F00A6B88F /* NetworkRequest.swift */; };
+		5D2589162779D3DB00A6B88F /* ForexResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2589152779D3DB00A6B88F /* ForexResource.swift */; };
+		5D2589182779D7B300A6B88F /* Forex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2589172779D7B300A6B88F /* Forex.swift */; };
+		5D25891A2779D82000A6B88F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2589192779D82000A6B88F /* Constants.swift */; };
+		5D25891C277A14B200A6B88F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D25891B277A14B200A6B88F /* NetworkError.swift */; };
+		5D258920277A286A00A6B88F /* ForexRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D25891F277A286A00A6B88F /* ForexRequest.swift */; };
+		5D258922277A44AC00A6B88F /* ForexDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D258921277A44AC00A6B88F /* ForexDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +43,7 @@
 /* Begin PBXFileReference section */
 		5D2588DB2779B89200A6B88F /* DailyForexProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyForexProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2588DE2779B89200A6B88F /* DailyForexProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForexProjectApp.swift; sourceTree = "<group>"; };
-		5D2588E02779B89200A6B88F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D2588E02779B89200A6B88F /* ForexList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexList.swift; sourceTree = "<group>"; };
 		5D2588E22779B89500A6B88F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D2588E52779B89500A6B88F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D2588E72779B89500A6B88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +53,14 @@
 		5D2588F72779B89500A6B88F /* DailyForexProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyForexProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2588FB2779B89500A6B88F /* DailyForexProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForexProjectUITests.swift; sourceTree = "<group>"; };
 		5D2588FD2779B89500A6B88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D25890D2779BC2900A6B88F /* APIResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResource.swift; sourceTree = "<group>"; };
+		5D25890F2779D03F00A6B88F /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		5D2589152779D3DB00A6B88F /* ForexResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexResource.swift; sourceTree = "<group>"; };
+		5D2589172779D7B300A6B88F /* Forex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forex.swift; sourceTree = "<group>"; };
+		5D2589192779D82000A6B88F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5D25891B277A14B200A6B88F /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		5D25891F277A286A00A6B88F /* ForexRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexRequest.swift; sourceTree = "<group>"; };
+		5D258921277A44AC00A6B88F /* ForexDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +111,12 @@
 		5D2588DD2779B89200A6B88F /* DailyForexProject */ = {
 			isa = PBXGroup;
 			children = (
+				5D2589112779D0F700A6B88F /* Constants */,
+				5D25890C2779B93E00A6B88F /* Networking */,
+				5D25890B2779B90100A6B88F /* ViewModel */,
+				5D2589092779B8EB00A6B88F /* Model */,
+				5D25890A2779B8F700A6B88F /* Views */,
 				5D2588DE2779B89200A6B88F /* DailyForexProjectApp.swift */,
-				5D2588E02779B89200A6B88F /* ContentView.swift */,
 				5D2588E22779B89500A6B88F /* Assets.xcassets */,
 				5D2588E72779B89500A6B88F /* Info.plist */,
 				5D2588E42779B89500A6B88F /* Preview Content */,
@@ -128,6 +148,74 @@
 				5D2588FD2779B89500A6B88F /* Info.plist */,
 			);
 			path = DailyForexProjectUITests;
+			sourceTree = "<group>";
+		};
+		5D2589092779B8EB00A6B88F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D2589172779D7B300A6B88F /* Forex.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D25890A2779B8F700A6B88F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D2588E02779B89200A6B88F /* ForexList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5D25890B2779B90100A6B88F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5D258921277A44AC00A6B88F /* ForexDataModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5D25890C2779B93E00A6B88F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5D25891E277A23C000A6B88F /* Request */,
+				5D25891D277A23B300A6B88F /* Resource */,
+				5D2589142779D37A00A6B88F /* Model */,
+				5D25891B277A14B200A6B88F /* NetworkError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5D2589112779D0F700A6B88F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				5D2589192779D82000A6B88F /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		5D2589142779D37A00A6B88F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D25891D277A23B300A6B88F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5D25890D2779BC2900A6B88F /* APIResource.swift */,
+				5D2589152779D3DB00A6B88F /* ForexResource.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5D25891E277A23C000A6B88F /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				5D25890F2779D03F00A6B88F /* NetworkRequest.swift */,
+				5D25891F277A286A00A6B88F /* ForexRequest.swift */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +347,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D2588E12779B89200A6B88F /* ContentView.swift in Sources */,
+				5D258922277A44AC00A6B88F /* ForexDataModel.swift in Sources */,
+				5D2589182779D7B300A6B88F /* Forex.swift in Sources */,
+				5D25891C277A14B200A6B88F /* NetworkError.swift in Sources */,
+				5D2589162779D3DB00A6B88F /* ForexResource.swift in Sources */,
+				5D25890E2779BC2900A6B88F /* APIResource.swift in Sources */,
+				5D2588E12779B89200A6B88F /* ForexList.swift in Sources */,
+				5D258920277A286A00A6B88F /* ForexRequest.swift in Sources */,
+				5D25891A2779D82000A6B88F /* Constants.swift in Sources */,
+				5D2589102779D03F00A6B88F /* NetworkRequest.swift in Sources */,
 				5D2588DF2779B89200A6B88F /* DailyForexProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
